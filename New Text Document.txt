@@ -1,0 +1,41 @@
+Data Types
+
+Primitive
+Building blocks of language (Simplest)
+always lowercase
+Java Primitive: boolean, char(single character), int, double(float). Sorted from smallest to largest in memory
+
+Objects
+Containss multiple values and methods
+Uppercase
+Ex: String
+
+Operations - resulting value will be the bigger type by default
+Ex: 4+3.0 -> 3.0 as an double
+
+Java has auto conversions:
+Ex:
+char c = 'A' // 65 in ascii
+int x = c+1
+'A' +1 = 66
+
+Declaring Types
+int points = 9;
+int total = 10;
+double grade = points/total; // if you want decimal result you have to declare double if you dont the answer would be an interger 0.9 as an int is 0
+
+Variables
+Must be expressed as 'type var' because java makes memory size based off type
+Variable must be small enough to fit in said memory size
+double x = 2;
+int y = x;
+
+Casting- Anytime going from bigger type to smaller
+(type) value
+(int) userchoice
+double x = 2;
+int y = (double) x;
+Cannot cast between Primitive and Objects unless its a String
+
+int point = 5;
+String message = "your total is  " + points;
