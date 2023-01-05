@@ -3,7 +3,7 @@ Data Types
 Primitive
 Building blocks of language (Simplest)
 always lowercase
-Java Primitive: boolean, char(single character), int, double(float). Sorted from smallest to largest in memory
+Java Primitives: boolean, char(single character), int, double(float). Sorted from smallest to largest in memory
 
 Objects
 Containss multiple values and methods

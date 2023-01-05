@@ -1,0 +1,72 @@
+Branching If statements
+Pyhton
+a = 0
+if a == 0:
+    print("hello")
+print("world")
+
+a = 0
+b = 0
+if a == 0:
+    print("1")
+    if b == 0:
+        print("2")
+else:
+    print("too bad")
+
+
+a = 5
+if (a == 0):
+    print("apple")
+elif (a > 0):
+    print("banana")
+else:
+    print("grape")
+
+count = 0
+while count < 10:
+    print(count)
+    count += 1
+print("done")
+
+Java
+int a = 0;
+if (a == 0) {
+    System.out.println("hello");
+System.out.println("world");
+}
+
+int a = 5;
+if (a == 0) {
+    System.out.println("apple");
+} else if (a > 0) {
+    System.out.println("banana");
+} else {
+    System.out.println("grape");
+}
+
+you have to spell out elif as else if
+
+int count = 0
+while (count < 10) {
+    System.out.println(count);
+    count++;
+}
+
+
+for ( int count = 0: count < 10; count+=1) {
+    System.out.println(count);
+System.out.println("done");
+}
+
+
+Java Syntax
+Normal Line of code ends in Simicolon
+Conditions are in paranthesis
+No colon on end of Conditions
+you have to spell out elif as else if
+
+
+Blocks of Code in Java
+{} determine what code goes with what block/section
+if you leave off the brackets it will only execute the first line of code
