@@ -1,0 +1,32 @@
+File:
+Start capital letter
+ends in .java
+
+Single class per file
+public class *Filename* {
+All code must go here
+}
+
+File name must match class name
+All code must be in that class
+Imports go above the class
+Put all code in brackets
+
+All exwcutable code must be in a method
+
+
+Python methods
+def getMax(a,b):
+
+Java methods
+public static int getMax(int a, int b) {
+
+}
+
+int is the return type
+void means no return type
+
+Start of the program is the main method
+public static void main(String[] args) {
+    Start of program
+}
