@@ -5,10 +5,9 @@ public class MyFirstVSCodeProject
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
-		String movie = input.nextLine();
 
 		System.out.print("Enter a movie: ");
-		movie = input.nextLine();
+		String movie = input.nextLine();
 
 		System.out.print("Enter a rating: ");
 		int rating = input.nextInt();
