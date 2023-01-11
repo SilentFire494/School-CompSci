@@ -1,16 +1,14 @@
 public class MathStuff
 {
-    public static boolean checkFactor(int factor, int number )
+    public static boolean checkFactor(int number, int factor)
     {
-        boolean factorable = false;
-        if (number % factor == 0)
+        if (factor % number == 0)
         {
-            factorable = true;
-            return factorable;
+            return true;
         }
         else
         {
-            return factorable;
+            return false;
         }
     }
 
@@ -19,7 +17,7 @@ public class MathStuff
         int count = 0;
         for (int i = 1; i <= number; i++)
         {
-            if (number % i == 0)
+            if (checkFactor(number, i))
             {
                 count++;
             }
@@ -29,14 +27,19 @@ public class MathStuff
 
     public static boolean isPrime(int number)
     {
-        if (countFactor(number) <= 2)
-        {
-            return true;
-        }
-        else
+        if (number<=1)
         {
             return false;
         }
+
+        for (int i = 2; i < number; i++)
+        {
+            if (number % i == 0)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
 }
