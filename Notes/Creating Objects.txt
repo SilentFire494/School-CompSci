@@ -1,0 +1,17 @@
+Use the new keyword, followed by a Contructor Method
+
+Contructor Methods - Setup for an object when its first created
+Constructor must be exactly the same name as the class(or type)
+No return type
+New keyword indicates that a new object is being created
+
+public class Toothbrush
+{
+    private String Brank;
+    private String color
+    public Toothbrush(String b, String c)
+    {
+        this.Brand = b;
+        this.color = c;
+    }
+}

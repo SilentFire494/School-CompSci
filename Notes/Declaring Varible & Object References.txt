@@ -1,0 +1,30 @@
+Declaring Variables Type
+type varName; -> creates memory location for the variable
+int x = 1; int x += 1; -> This fails because java thinks you are trying to make another variable called x instead do x += 1; or x = x + 1;
+
+Scope of a varible - Where and when the varible exists
+{} - curly braces define the scope of a variable, it only exists inside those brackets
+
+int num = ___;
+if (num % 2 == 0)
+{
+    boolean even = true;
+
+}
+else
+{
+    boolean even = false;
+}
+System.out.println(even); -> This will not work because even is only defined inside the if statement currect way to do it is
+int num = ___;
+boolean even;
+if (num % 2 == 0)
+{
+    even = true;
+
+}
+else
+{
+    even = false;
+}
+
