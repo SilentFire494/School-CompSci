@@ -1,0 +1,57 @@
+// method to determine if two lines are parallel
+
+public static boolean isParallel ( Line line1 , Line line2 )
+{
+    if ( line1.getSlope() == (line2.getSlope())
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+public static void displayLine ( Line line )
+{
+    System.out.println( "y = " + line.getSlope() + "x + " + line.Intercept(x) );
+}
+
+
+// static method to return track that is longest on a cd
+public static Track getLongestTrack ( CD cd )
+{
+    Track longestTrack = cd.getTrack(0);
+    for ( int i = 1; i < cd.getNumberOfTracks(); i++ )
+    {
+        if ( cd.getTrack(i).getLength() > longestTrack.getLength() )
+        {
+            longestTrack = cd.getTrack(i);
+        }
+    }
+    return longestTrack;
+}
+
+static method that calculates the total length of all tracks on a cd in seconds
+public static int getTotalLength ( CD cd )
+{
+    int totalLength = 0;
+    for ( int i = 0; i < cd.getNumberOfTracks(); i++ )
+    {
+        totalLength += cd.getTrack(i).getLength();
+    }
+    return totalLength;
+}
+
+// determine which cd has the longest total length of tracks
+public static CD getLongestCD ( CD cd1, CD cd2 )
+{
+    if ( getTotalLength(cd1) > getTotalLength(cd2) )
+    {
+        return cd1;
+    }
+    else
+    {
+        return cd2;
+    }
+}

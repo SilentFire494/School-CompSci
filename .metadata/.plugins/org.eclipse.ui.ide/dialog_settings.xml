@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\s82735\OneDrive - Park Hill School District\Desktop\School CompSci\ObjectsMethods2"/>
 			<item value="C:\Users\s82735\OneDrive - Park Hill School District\Desktop\School CompSci\WritingStaticMethods1"/>
 		</list>
 	</section>
@@ -16,11 +17,13 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\s82735\OneDrive - Park Hill School District\Desktop\School CompSci\ObjectsMethods2"/>
 			<item value="C:\Users\s82735\OneDrive - Park Hill School District\Desktop\School CompSci\Java Starter 1"/>
 			<item value="C:\Users\s82735\OneDrive - Park Hill School District\Desktop\School CompSci\WritingStaticMethods1"/>
 			<item value="C:\Users\s82735\OneDrive - Park Hill School District\Desktop\School CompSci\WritingStaticMethods2"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\s82735\OneDrive - Park Hill School District\Desktop\School CompSci\WritingStaticMethods2"/>
 			<item value=""/>
 		</list>
 	</section>
@@ -31,6 +34,7 @@
 	<section name="ResourceNavigator">
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1672934811043"/>
+		<item key="LINK_NAVIGATOR_TO_EDITOR" value="false"/>
 	</section>
 	<section name="SaveAsDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="706"/>

@@ -1,0 +1,57 @@
+Objects - groups behavior and characteristics affected by those behaviors
+Ex: behavior: eat
+    characteristics: Weight
+
+behavior - what an object does or how it acts
+behavior is your methods (non static)
+
+person.eat(banana); -> method name: eat, parameter: foodItem(banana)
+Design behaviors first
+
+characteristics - properties affected bu the behavior
+no behavior that needs the characteristics -> delete it
+instant (or object) variables -> nouns
+
+ex private int weight;
+
+Class - Groups methods and the variables they affect
+Methods - Define behavior (not static)
+Methdos changes characteristics of an object (no return void)
+if it creates, produces something new, or get and characteristics of an object -> return
+
+ex 
+int w = person.getWeight();
+
+
+instance variables - define characteristics of an object
+decleared at the top of the class outside all methods
+always decleared private
+defined in the constructor method
+
+constructor method - setup for the object on creation
+define all instant variables
+Same name as the class
+only method with no return type (not even void)
+
+ex
+public class person
+{
+    private int weight;
+
+    public person(int startWeight)
+    {
+        this.weight = startWeight;
+    }
+}
+
+ex
+public class person
+{
+    private int weight;
+
+    public void (Food f)
+    {
+        int calories = f.getCalories();
+        double new weight = _________
+        weight += new weight;
+    }

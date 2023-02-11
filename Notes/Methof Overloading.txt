@@ -1,0 +1,11 @@
+Method Overloading - Multiple versions of the same Method but different parameters
+Different parameters = different type, different order, different number of parameters
+Java decides which method to call based on the parameters passed in
+
+public static void cool(int x, int y)
+public static void cool(int x, double y)
+
+a. cool(4, 5) - calls the first method
+b. cool(4, 5.0) - calls the second method
+c. cool(4.0, 5.0) - error, no method with those parameters
+d. cool('A', 'B') - calls the first method because it can convert the characters to integers

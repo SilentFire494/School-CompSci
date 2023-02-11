@@ -1,0 +1,23 @@
+Object Class
+Class that has generic object methods that all classes inherit
+Ex: pequals(), toString()
+
+toString - returns a string representation of an object
+Ex: System.out.println("Hello World") -> "Hello World"
+
+public class Fraction
+{
+    private int numerator;
+    private int denominator;
+    
+    public Fraction(int numerator, int denominator)
+    {
+        this.numerator = numerator;
+        this.denominator = denominator;
+    }
+
+    @Override public String toString()
+    {
+        return this.numerator + "/" + this.denominator;
+    }
+}
