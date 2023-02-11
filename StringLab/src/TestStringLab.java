@@ -10,4 +10,4 @@ public class TestStringLab
         System.out.println("Is " + s + " a palindrome? " + StringLab.isPalindrome(s));
         System.out.println("The string " + s + " with all " + c + "'s removed is " + StringLab.removeAll(s, c));
     }
-}
+}A
