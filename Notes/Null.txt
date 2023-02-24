@@ -1,0 +1,14 @@
+Null
+
+Rational a = new Rational();
+Rational b = new Rational();
+Rational c = new Rational();
+
+a == c; // == is checking memory locations
+
+Null is a concept that means that nothing is in that memory location.
+Null is only used for object varibles
+
+
+Rational r = null; // r is defined to be empty
+
