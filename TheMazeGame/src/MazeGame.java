@@ -32,12 +32,21 @@ public class MazeGame {
 	 */
 	private void loadMazePaths()
 	{
-        MazePath path1 = new MazePath("Test", "This is test description");
-        MazePath path2 = new MazePath("Test2", "This is test description2");
-        MazePath path3 = new MazePath("Test3", "This is test description3");
+        MazePath path1 = new MazePath("Left", "This is test description");
+        MazePath path2 = new MazePath("Right", "This is test description2");
+        MazePath path3 = new MazePath("Up", "This is test description3");
+		MazePath path4 = new MazePath("Down", "This is test description4");
 
         path1.setCorrectPath(path2);
+		path1.setIncorrectPath(path3);
         path2.setCorrectPath(path3);
+		path2.setIncorrectPath(path4);
+		path3.setCorrectPath(path1);
+		path3.setIncorrectPath(path4);
+		path4.setCorrectPath(path2);
+		path4.setIncorrectPath(path1);
+
+
 
         startPath = path1;
         goalPath = path3;
@@ -60,10 +69,18 @@ public class MazeGame {
 
          displayIntro();
          MazePath currentPath = startPath;
-         while (currentPath != goalPath) {
-             currentPath = input.chooseNextPath(currentPath);
-         }
-        displayWinner();
+         while (currentPath != goalPath)
+		 {
+			 currentPath = input.chooseNextPath(currentPath);
+			 if (currentPath == goalPath)
+			 {
+				 displayWinner();
+			 }
+			 else if (currentPath == startPath)
+			 {
+				 displayGameOver();
+			 }
+		 }
 	}
 	
 	/**
@@ -90,6 +107,8 @@ public class MazeGame {
 	private void displayGameOver()
 	{
         System.out.println("You have lost the game!");
+		// end the game
+		
 	}
 	
 }
